@@ -35,7 +35,7 @@
           "title": "John Maus - Disappears",
           "role": "Assistant Editor",
           "date": "2025",
-          "media": { "type": "image", "src": "assets/sample.jpg", "alt": "Still frame" }
+          "media": { "type": "youtube", "id": "t4EZlYzBy9c" }
 	   }
       ]
     },
