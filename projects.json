@@ -67,11 +67,12 @@
         {
           "id": "it-was-so-easy",
           "title": "Leslie - It Was So Easy",
-          "role": "Co-diretion/Co-edit by Paul Cellini and Leslie",
           "date": "2025",
           "media": {
             "type": "youtube",
-            "id": "lFimI60LYj0"
+            "id": "lFimI60LYj0",
+          "description": "Co-directed/Co-edit by Paul Cellini and Leslie"
+
           }
         }
       ]
