@@ -1,0 +1,50 @@
+{
+  "siteTitle": "Your Name",
+  "categories": [
+    {
+      "id": "editor",
+      "title": "Editor",
+      "projects": [
+        {
+          "id": "cos-rosie",
+          "title": "COS – Perspectives in Motion",
+          "role": "Editor",
+          "date": "2023",
+          "media": { "type": "youtube", "id": "dQw4w9WgXcQ" }
+        },
+        {
+          "id": "ssense-north-face",
+          "title": "SSENSE x North Face",
+          "role": "Editor",
+          "date": "2022",
+          "media": { "type": "vimeo", "id": "123456789" }
+        }
+      ]
+    },
+    {
+      "id": "assistant-editor",
+      "title": "Assistant Editor",
+      "projects": [
+        {
+          "id": "project-ae-1",
+          "title": "Project Name",
+          "role": "Assistant Editor",
+          "date": "2021",
+          "media": { "type": "image", "src": "assets/sample.jpg", "alt": "Still frame" }
+        }
+      ]
+    },
+    {
+      "id": "director",
+      "title": "Director",
+      "projects": [
+        {
+          "id": "directed-1",
+          "title": "Directed Piece",
+          "role": "Director",
+          "date": "2020"
+        }
+      ]
+    }
+  ]
+}
