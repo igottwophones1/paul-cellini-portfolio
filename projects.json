@@ -16,7 +16,13 @@
           "title": "Dinner Party",
           "role": "Editor",
           "date": "2025"
-        }
+        },
+		 {
+          "id": "gino-forever",
+          "title": "GINO! Forever",
+          "role": "Editor",
+          "date": "2025"
+       	 }
       ]
     },
     {
@@ -36,7 +42,13 @@
           "role": "Assistant Editor",
           "date": "2025",
           "media": { "type": "youtube", "id": "t4EZlYzBy9c" }
-	   }
+	   },
+	    {
+	   	"id": "psyfi",
+          "title": "Chloe Wise - PsyFi",
+          "role": "Assistant Editor",
+          "date": "2026",
+	    }
       ]
     },
     {
@@ -44,10 +56,11 @@
       "title": "Director",
       "projects": [
         {
-          "id": "directed-1",
-          "title": "Directed Piece",
-          "role": "Director",
-          "date": "2020"
+          "id": "it-was-so-easy",
+          "title": "Leslie - It Was So Easy",
+          "role": "Co-diretion/Co-edit by Paul Cellini and Leslie",
+          "date": "2025"
+		  "media": { "type": "youtube", "id": "lFimI60LYj0" }
         }
       ]
     }
