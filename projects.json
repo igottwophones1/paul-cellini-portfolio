@@ -17,12 +17,12 @@
           "role": "Editor",
           "date": "2025"
         },
-		 {
+        {
           "id": "gino-forever",
           "title": "GINO! Forever",
           "role": "Editor",
           "date": "2025"
-       	 }
+        }
       ]
     },
     {
@@ -34,21 +34,28 @@
           "title": "Neighbors",
           "role": "Assistant Editor",
           "date": "2026",
-          "media": { "type": "image", "src": "assets/sample.jpg", "alt": "Still frame" }
+          "media": {
+            "type": "image",
+            "src": "assets/sample.jpg",
+            "alt": "Still frame"
+          }
         },
-	   {
-	   	"id": "disappears",
+        {
+          "id": "disappears",
           "title": "John Maus - Disappears",
           "role": "Assistant Editor",
           "date": "2025",
-          "media": { "type": "youtube", "id": "t4EZlYzBy9c" }
-	   },
-	    {
-	   	"id": "psyfi",
+          "media": {
+            "type": "youtube",
+            "id": "t4EZlYzBy9c"
+          }
+        },
+        {
+          "id": "psyfi",
           "title": "Chloe Wise - PsyFi",
           "role": "Assistant Editor",
           "date": "2026"
-	    }
+        }
       ]
     },
     {
@@ -60,7 +67,10 @@
           "title": "Leslie - It Was So Easy",
           "role": "Co-diretion/Co-edit by Paul Cellini and Leslie",
           "date": "2025",
-		  "media": { "type": "youtube", "id": "lFimI60LYj0" }
+          "media": {
+            "type": "youtube",
+            "id": "lFimI60LYj0"
+          }
         }
       ]
     }
