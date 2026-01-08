@@ -1,23 +1,21 @@
 {
-  "siteTitle": "Your Name",
+  "siteTitle": "Paul Cellini",
   "categories": [
     {
       "id": "editor",
       "title": "Editor",
       "projects": [
         {
-          "id": "cos-rosie",
-          "title": "COS – Perspectives in Motion",
+          "id": "superlative-day",
+          "title": "Superlative Day",
           "role": "Editor",
-          "date": "2023",
-          "media": { "type": "youtube", "id": "dQw4w9WgXcQ" }
+          "date": "2025"
         },
         {
-          "id": "ssense-north-face",
-          "title": "SSENSE x North Face",
+          "id": "dinner-party",
+          "title": "Dinner Party",
           "role": "Editor",
-          "date": "2022",
-          "media": { "type": "vimeo", "id": "123456789" }
+          "date": "2025"
         }
       ]
     },
@@ -26,12 +24,19 @@
       "title": "Assistant Editor",
       "projects": [
         {
-          "id": "project-ae-1",
-          "title": "Project Name",
+          "id": "neighbors",
+          "title": "Neighbors",
           "role": "Assistant Editor",
-          "date": "2021",
+          "date": "2026",
           "media": { "type": "image", "src": "assets/sample.jpg", "alt": "Still frame" }
-        }
+        },
+	   {
+	   	"id": "disappears",
+          "title": "John Maus - Disappears",
+          "role": "Assistant Editor",
+          "date": "2025",
+          "media": { "type": "image", "src": "assets/sample.jpg", "alt": "Still frame" }
+	   }
       ]
     },
     {
