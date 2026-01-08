@@ -170,3 +170,15 @@ body{
   opacity:1;
   transform: translateY(0);
 }
+
+.projectLink{
+  color:var(--text);
+  text-decoration:none;
+  transition: color 120ms ease-out, transform 120ms ease-out;
+}
+
+.projectLink[aria-current="true"]{
+  color:var(--active);
+  font-weight:600;
+  transform: translateX(2px); /* tiny nudge, very restrained */
+}
