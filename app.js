@@ -92,7 +92,7 @@ function renderDetail(categoryId, projectId) {
     <article class="detailCard">
       <h1 class="detailTitle">${escHtml(proj.title)}</h1>
       ${metaParts.length ? `<p class="detailMeta">${metaParts.join(" • ")}</p>` : ""}
-      ${proj.description ? `<p class="detailMeta">${project.description}  </p>` : ""}
+      ${proj.description ? `<p class="detailMeta">${proj.description}  </p>` : ""}
       ${renderMedia(proj.media)}
     </article>
   `;
