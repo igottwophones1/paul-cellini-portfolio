@@ -91,10 +91,10 @@ function renderDetail(categoryId, projectId) {
   detailInnerEl.innerHTML = `
     <article class="detailCard">
       <h1 class="detailTitle">${escHtml(proj.title)}</h1>
+      ${renderMedia(proj.media)}
       ${metaParts.length ? `<p class="detailMeta">${metaParts.join(" • ")}</p>` : ""}
       ${proj.description ? `<p class="detailMeta">${proj.description}  </p>` : ""}
-      ${renderMedia(proj.media)}
-    </article>
+      </article>
   `;
 
   // Optional: if the detail pane is scrolled, bring it to top on each selection
