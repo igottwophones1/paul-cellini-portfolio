@@ -96,7 +96,10 @@ function renderDetail(categoryId, projectId) {
       ${proj.description ? `<p class="detailMeta">${proj.description}  </p>` : ""}
       </article>
   `;
-
+  detailInnerEl.classList.remove("detailInnerEnter");
+// force reflow so the animation can retrigger
+  void detailInnerEl.offsetWidth;
+  detailInnerEl.classList.add("detailInnerEnter");
   // Optional: if the detail pane is scrolled, bring it to top on each selection
   detailEl.scrollTo({ top: 0, behavior: "smooth" });
 }
