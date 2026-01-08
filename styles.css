@@ -144,3 +144,29 @@ body{
   }
   .categoryRow{ grid-template-columns: 150px 1fr; }
 }
+
+/* Animated disclosure for project lists */
+.projectList{
+  margin:0;
+  padding:0;
+  list-style:none;
+
+  display:block;            /* keep block so it can animate height */
+  overflow:hidden;
+
+  max-height:0;
+  opacity:0;
+  transform: translateY(-2px);
+
+  transition:
+    max-height 180ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity    140ms ease-out,
+    transform  180ms ease-out;
+  will-change: max-height, opacity, transform;
+}
+
+.projectList[data-open="true"]{
+  max-height: 520px;        /* pick something comfortably larger than your longest list */
+  opacity:1;
+  transform: translateY(0);
+}
