@@ -4,7 +4,7 @@
   function updateClock() {
     const now = new Date();
     const timeString = now.toLocaleTimeString(); // Formats to local time
-    document.getElementById('clock').innerText = timeString;
+    document.getElementById('clock')?.innerText = timeString;
   }
   // Update every 1000ms (1 second)
   setInterval(updateClock, 1000);
