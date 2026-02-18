@@ -1,4 +1,17 @@
 <!doctype html>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString(); // Formats to local time
+    document.getElementById('clock').innerText = timeString;
+  }
+  // Update every 1000ms (1 second)
+  setInterval(updateClock, 1000);
+  // Initial call to avoid 1s delay
+  updateClock();	
+</script>
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -25,6 +38,8 @@
 	
 <body>
 
+<div id="clock"></div>
+	
 <!-- INTRO SECTION -->
 <p>
 <strong>Paul Cellini</strong>
